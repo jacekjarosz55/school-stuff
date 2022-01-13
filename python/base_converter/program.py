@@ -22,7 +22,7 @@ while True:
             raise ValueError
 
     except ValueError:
-        print("niepoprawne dane!")
+        print("Incorrect Data!")
         continue
     else:
         break
