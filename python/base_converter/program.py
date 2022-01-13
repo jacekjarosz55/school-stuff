@@ -15,8 +15,8 @@ def dec_change_base(dec: int, base:int) -> str:
 
 while True:
     try:
-        dziesietna = int(input("Podaj liczbę:"))
-        system = int(input("W jakim systemie? (2-20):"))
+        base = int(input("Input a number:"))
+        decimal = int(input("What base? (2-20):"))
 
         if 2 > system or system > 20:
             raise ValueError
@@ -28,7 +28,7 @@ while True:
         break
 
 
-print(dec_change_base(dziesietna,system))
+print(dec_change_base(decimal,base))
 
 
 
